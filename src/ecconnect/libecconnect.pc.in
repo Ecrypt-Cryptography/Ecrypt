@@ -1,0 +1,9 @@
+includedir=%includedir%
+libdir=%libdir%
+
+Name: Ecconnect
+Description: Cryptographic primitives for Ecrypt
+Version: %version%
+Cflags: -I${includedir}
+Libs: -L${libdir} -lecconnect
+Libs.private: %crypto-libs%

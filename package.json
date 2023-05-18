@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "jsecrypt": "file:build/jsecrypt.tgz"
+  }
+}
